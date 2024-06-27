@@ -1,0 +1,302 @@
+
+/*横幅設定*/
+body {
+  max-width: 1080px;
+  min-width: 960px;
+  margin: 0 auto 0 auto;
+  font-family: "biz udgothic","sans-serif";
+}
+
+
+/*ヘッダー*/
+header {
+  background-color: #ffe15d;
+  text-align: center;
+  padding: 40px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.title-container  h1 {
+  margin: 0;
+}
+
+#hoshi01 {
+  align-self: center;
+}
+
+#title02 {
+  align-self: center;
+  margin: 15px;
+  font-family: "slackside one";
+  font-size: 40px;
+  color: #E25E3E;
+}
+
+#syojyo03 {
+  align-self: center;
+}
+
+/*ナビ*/
+#nav-pc {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "slackside one";
+}
+
+#nav-pc > a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#nav-pc > a:link {
+  color: #E25E3E;
+}
+
+#nav-pc > a:visited {
+  color: #E25E3E;
+}
+
+#nav-pc > a:hover {
+  color: #E25E3E;
+  text-decoration: underline;
+}
+
+#nav-pc > a:active {
+  color: #E25E3E;
+}
+
+/*メイン*/
+/*みりょく*/
+.miryoku-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#miryoku {
+  font-family: "tsukimi rounded","sans-serif";
+  color: #7ABA78;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+#vetnam-irast {
+  text-align: center;
+}
+
+#miryoku-coment {
+  text-align: center;
+  font-size: 15px;
+}
+
+#mcom {
+  width: 557px;
+  margin: 50px auto 100px auto;
+  font-size: 20px;
+}
+
+/*水平線*/
+hr {
+  border: none;
+  border-top: 20px dotted #FFE15D ;
+  filter: blur(4px);
+}
+
+/*けしき*/
+.kesiki-container {
+  display: flex;
+}
+
+.kesiki-coment-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#keshiki {
+  font-family: "tsukimi rounded","sans-serif";
+  color: #7ABA78;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+#rantan {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 150px;
+}
+
+#kcom {
+  width: 230px;
+  height: 285px;
+  font-size: 17px;
+}
+
+/*たべもの*/
+#tabemono1 {
+  display: flex;
+}
+
+.tabemono-coment-container {
+  display: flex;
+  align-items: baseline;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+#tabemono {
+  font-family: "tsukimi rounded","sans-serif";
+  color: #7ABA78;
+  font-size: 20px;
+}
+
+.tabemono-container {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+
+.absolute1 {
+position: absolute;
+top: 130px;
+left: 300px;
+border-radius: 5%;
+}
+
+.absolute2 {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  border-radius: 5%;
+}
+
+#tcom {
+  width: 230px;
+  height: 285px;
+  font-size: 17px;
+}
+
+
+/*コスメ*/
+.cosume-container {
+  display: flex;
+}
+
+.cosume-coment-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#cosume {
+  font-family: "tsukimi rounded","sans-serif";
+  color: #7ABA78;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+#taran {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+#ccom {
+  width: 230px;
+  height: 285px;
+  font-size: 17px;
+}
+
+
+
+/*水平線*/
+hr {
+  border: none;
+  border-top: 20px dotted #FFE15D ;
+  filter: blur(4px);
+}
+
+/*まとめ*/
+.matome-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 100px;
+}
+
+#matome {
+  font-family: "tsukimi rounded","sans-serif";
+  color: #7ABA78;
+  font-size: 20px;
+}
+
+#umi {
+  text-align: center;
+}
+
+#matome-coment {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+#macom {
+  width: 557px;
+  margin: 50px auto 100px auto;
+  font-size: 20px;
+}
+
+/*フッター*/
+footer {
+  background-color: #FFE15D;
+  text-align: end;
+  height: 50px;
+}
+
+#kaeru {
+  color: #E25E3E;
+  font-family: "slackside one";
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#kaeru img {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#kaeru > a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#kaeru > a:link {
+  color: #E25E3E;
+}
+
+#kaeru > a:visited {
+  color: #E25E3E;
+}
+
+#kaeru > a:hover {
+  color: #E25E3E;
+  text-decoration: underline;
+}
+
+#kaeru > a:active {
+  color: #E25E3E;
+}
